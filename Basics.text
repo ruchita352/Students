@@ -1,0 +1,80 @@
+=>What is HTML?
+ HTML (HyperText Markup Language) is the standard language used to create and structure content on the web.
+ HyperText refers to the linking of web pages.
+
+=>Markup Language means it uses tags to define elements within a document.
+ 
+=> Types of HTML Elements
+  1. Block-level Elements – Start on a new line (e.g., <div>, <h1>, <p>)
+  2. Inline Elements – Stay in line with text (e.g., <span>, <a>, <strong>)
+
+Tag	Purpose
+<!DOCTYPE html>	Declares HTML5 document
+<html>	Root element
+<head>	Metadata (title, styles, links)
+<title>	Page title shown in browser tab
+<body>	Main content of the page
+<h1> to <h6>	Headings
+<p>	Paragraph
+<a>	Links
+<img>	Images
+<div> / <span>	Containers for grouping content
+
+
+
+Semantic HTML
+Semantic tags describe meaning rather than just presentation.
+
+Semantic Tag	Meaning
+<article>	Self-contained content
+<section>	Logical section of a page
+<header> / <footer>	Page or section headers/footers
+<aside>	Side content
+<main>	Central content
+<nav>	Navigation links
+
+
+Common Attributes:
+
+href – Link URL
+src – Image source
+alt – Image description
+class / id – For CSS/JS targeting
+style – Inline styling
+
+Tag	Use
+<h1> to <h6>	Headings
+<p>	Paragraph
+<a>	Anchor/Link
+<img>	Image
+<ul>, <ol>, <li>	Lists
+<div>, <span>	Containers
+<form>, <input>, <button>	Forms
+<table>, <tr>, <td>	Tables
+<br>	Line break
+<hr>	Horizontal line
+
+✅ Lists
+Tag	Description
+<ul>	Unordered list
+<ol>	Ordered list
+<li>	List item
+<dl>	Description list
+<dt> / <dd>	Term / Description
+
+✅ Tables
+Tag	Description
+<table>	Defines a table
+<tr>	Table row
+<td>	Table cell
+<th>	Table header
+<thead> / <tbody> / <tfoot>	Semantic parts of table
+
+form Tag	Purpose
+<form>	Container for input controls
+<input>	Single-line input
+<textarea>	Multi-line input
+<select> / <option>	Dropdown menu
+<label>	Descriptive label for inputs
+<button>	Clickable button
+type attribute	e.g. text, email, checkbox, radio, file, submit

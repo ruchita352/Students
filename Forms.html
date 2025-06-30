@@ -6,25 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    option{
+        background-color: aquamarine;
+    }
+    #n1{
+        border: none;
+        border: 2px solid red;
+    }
+</style>
 
 <body>
     <form>
-    <input type="search">
+    <input  type="search">
     <input type="text">
-    <!-- <hr> -->
+    <hr>
 
-    <label for="name">Name<span>*</span></label>
-    <input type="text" placeholder="enter your first name" required>
+    <label  for="name">Name<span>*</span></label>
+    <input type="text" placeholder="enter your first name" id="n1" required>
     <label for="lname">LastName:</label>
     <input type="text">
     <input type="checkbox"><label for="lname">Html</label>
     <input type="checkbox"><label for="lname">css</label>
     <br>
     <input type="radio">
-    <option value="male" name="gender">Male</option>
+    <!-- <option value="male" name="gender">Male</option> -->
     </input>
     <input type="radio">
-    <option value="female" name="gender">Female</option>
+    <!-- <option value="female" name="gender">Female</option> -->
     </input>
     <input type="file">
     <input type="submit">
@@ -37,13 +46,25 @@
 <input type="url">
 
 <hr>
+
+
 <label for="fruit">Choose a fruits:</label>
   <select id="fruits" name="fruit">
+    <option>Select..</option>
     <option value="apple">apple</option>
     <option value="banana">banana</option>
     <option value="mango">mango</option>
   </select>
 
+
+<hr>
+<input type="radio"  name="age" value="30">
+  <label for="age1">0 - 30</label><br>
+  <input type="radio" name="age" value="60">
+  <label for="age2">31 - 60</label><br>  
+  <input type="radio" name="age" value="100">
+  <label for="age3">61 - 100</label><br><br>
+  <input type="submit" value="Submit">
     </form>
 </body>
 

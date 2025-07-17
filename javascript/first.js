@@ -102,3 +102,16 @@ if (hasTicket || isVIP) {
 } else {
   console.log("Access denied.");
 }
+
+// let no1 =10;
+// let no2 =20;
+// function abc(){
+//   let result= no1 +no2
+//   console.log(result)
+// }
+
+function multiply(x, y) {
+  return x * y; 
+}
+  let answer = multiply(5, 2); 
+  console.log(answer);
